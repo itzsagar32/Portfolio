@@ -1,0 +1,77 @@
+export const projectsData = [
+  {
+    id: "portfolio-3d",
+    title: "Cinematic 3D Portfolio",
+    subtitle: "Interactive Storytelling & WebGL Experience",
+    description: "An unconventional developer portfolio structured as an interactive cinematic narrative. Features a scroll-driven 3D anatomical face metaphor with interactive scars that reveal personal turning points, paired with high-performance CSS and GSAP choreography.",
+    extendedDescription: "Engineered with React Three Fiber, custom procedural 3D sculpture shader/lighting, and scroll-bound timeline synchronization. Built to push the boundaries of creative developer portfolios.",
+    technologies: ["React", "Three.js", "React Three Fiber", "GSAP", "Vite", "CSS3"],
+    status: "Completed / Production",
+    featured: true,
+    category: "Creative Web & 3D",
+    githubUrl: "https://github.com/KrishuRaj/portfolio-3d", // placeholder
+    liveUrl: "#",
+    metrics: ["60 FPS WebGL", "Scroll-driven Camera", "Accessible Fallback"],
+    accentColor: "#f59e0b"
+  },
+  {
+    id: "mental-coach-app",
+    title: "Mental Coach Android App",
+    subtitle: "Mobile Wellbeing & Habit Discipline Companion",
+    description: "A focused Android application built to cultivate daily mental resilience, habit consistency, and reflective mindfulness. Emphasizes distraction-free UI, privacy-first offline storage, and daily prompt routines.",
+    extendedDescription: "Designed with clean architecture principles, local SQLite storage for zero telemetry data exposure, custom daily reflection prompts, and habit streak algorithms.",
+    technologies: ["Android", "Java / Kotlin", "SQLite", "Material Design", "Clean Architecture"],
+    status: "In Active Development",
+    featured: true,
+    category: "Mobile Engineering",
+    githubUrl: "https://github.com/KrishuRaj/mental-coach-app",
+    liveUrl: null,
+    metrics: ["100% Offline Privacy", "Minimalist UX", "Local SQLite"],
+    accentColor: "#ea580c"
+  },
+  {
+    id: "security-research-bounty",
+    title: "Security Research & Responsible Disclosures",
+    subtitle: "Bug Bounty Findings & Target Surface Analysis",
+    description: "Ethical security research focused on web application vulnerabilities, parameter tampering, and broken access control in real-world platforms. Resulted in verified responsible disclosure and Hall of Fame recognition.",
+    extendedDescription: "Utilized Burp Suite for request inspection and fuzzing, Python for automated parameter analysis, and drafted structured vulnerability remediation reports following CVSS guidelines.",
+    technologies: ["Burp Suite", "Web Security", "Python", "API Testing", "OWASP", "Bash"],
+    status: "Ongoing Practice",
+    featured: true,
+    category: "Cybersecurity & Research",
+    githubUrl: "https://github.com/KrishuRaj/security-writeups",
+    liveUrl: "#security",
+    metrics: ["1+ Hall of Fame", "Zero Malicious Impact", "Ethical Disclosure"],
+    accentColor: "#ef4444"
+  },
+  {
+    id: "c-systems-project",
+    title: "C Systems Toolkit & Memory Inspector",
+    subtitle: "Low-Level POSIX System Utilities & Memory Exploration",
+    description: "An educational systems project developed in C to explore pointer mechanics, manual heap allocations, and process memory inspection on Linux systems.",
+    extendedDescription: "Demonstrates custom dynamic array implementations, memory leak tracking routines, and POSIX signal handling to build deep intuition for how modern operating systems handle machine state.",
+    technologies: ["C (C99)", "POSIX", "Linux", "GDB", "Valgrind", "Makefile"],
+    status: "Completed Exploration",
+    featured: false,
+    category: "Systems & Low-Level",
+    githubUrl: "https://github.com/KrishuRaj/c-systems-toolkit",
+    liveUrl: null,
+    metrics: ["Zero Leaks (Valgrind)", "Pointer Arithmetic", "Pure C"],
+    accentColor: "#d97706"
+  },
+  {
+    id: "recon-engine",
+    title: "Automated Recon & Asset Profiler",
+    subtitle: "Async Python Target Intelligence & Subdomain Scanner",
+    description: "A lightweight asynchronous CLI tool engineered to accelerate ethical reconnaissance on authorized domains during security assessments.",
+    extendedDescription: "Leverages Python AsyncIO for non-blocking HTTP probes, DNS lookups, banner grabbing, and status code aggregation to output structured JSON targets for manual inspection.",
+    technologies: ["Python 3", "AsyncIO", "HTTPX", "DNS Resolver", "CLI Architecture"],
+    status: "Prototype / Planning",
+    featured: false,
+    category: "Automation & Tooling",
+    githubUrl: "https://github.com/KrishuRaj/recon-engine",
+    liveUrl: null,
+    metrics: ["Async Concurrency", "JSON Reports", "Modular Pipeline"],
+    accentColor: "#b45309"
+  }
+];

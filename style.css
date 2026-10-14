@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana;
+ background-color: rgb(163, 141, 112);
+background-image: url('bg1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+#btn1{
+    padding: 40%;
+    background-color: #0b9fc0;
+    margin-top: 40%;
+}
