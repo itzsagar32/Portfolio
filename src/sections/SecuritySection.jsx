@@ -109,6 +109,26 @@ export default function SecuritySection() {
           </div>
         </div>
 
+        {/* Latest Coordinated Disclosure */}
+        <div className="glow-card p-6 sm:p-8 border-l-2 border-l-amber-500 bg-[#10121b] mt-8 relative overflow-hidden">
+          <div className="flex items-center gap-2 mb-3 text-amber-400 font-mono text-xs uppercase">
+            <Award size={18} />
+            <span>LATEST DISCLOSURE</span>
+          </div>
+          <h3 className="font-display font-bold text-2xl text-white mb-2">
+            {securityData.latestDisclosure.title}
+          </h3>
+          <p className="text-zinc-300 text-sm mb-2"><strong>Vendor:</strong> {securityData.latestDisclosure.vendor}</p>
+          <p className="text-zinc-300 text-sm mb-4">{securityData.latestDisclosure.description}</p>
+          <div className="flex flex-wrap gap-2 mb-2">
+            {securityData.latestDisclosure.tags.map(tag => (
+              <span key={tag} className="px-2 py-1 rounded bg-[#151722] border border-zinc-800 font-mono text-xs text-zinc-300">
+                {tag}
+              </span>
+            ))}
+          </div>
+          <p className="text-amber-400 font-mono text-xs uppercase">Status: {securityData.latestDisclosure.status}</p>
+        </div>
         {/* Security Principles */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
           {securityData.principles.map((p, i) => (

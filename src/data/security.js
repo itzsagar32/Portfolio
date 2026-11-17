@@ -26,6 +26,15 @@ export const securityData = {
       desc: "Passive asset discovery, DNS enumeration, directory fuzzing, and endpoint mapping before a single packet is crafted."
     }
   ],
+
+  latestDisclosure: {
+    title: 'First Coordinated Vulnerability Disclosure (CVD)',
+    vendor: 'Major Security Software Vendor',
+    severity: ['Medium – client‑side control bypass', 'Low – info‑disclosure'],
+    description: `While auditing a widely used browser extension I discovered a client‑side control bypass that allowed a malicious frame to trick the extension into saving spoofed credentials. The vendor triaged the issue, classified it as Medium severity, and will credit me in their upcoming Security Advisory.`,
+    status: 'Triaged & validated',
+    tags: ['CVD', 'browser‑extension', 'cross‑origin', 'credential‑theft']
+  },
   domains: [
     {
       category: "Web Security",
@@ -43,6 +52,15 @@ export const securityData = {
       concepts: ["Burp Suite Professional / Community", "Custom Python Async Probers", "Linux CLI / Bash Scripts", "OWASP Testing Guide (WSTG)", "cURL & HTTP/2 Analysis"]
     }
   ],
+
+  latestDisclosure: {
+    title: 'First Coordinated Vulnerability Disclosure (CVD)',
+    vendor: 'Major Security Software Vendor',
+    severity: ['Medium – client‑side control bypass', 'Low – info‑disclosure'],
+    description: `While auditing a widely used browser extension I discovered a client‑side control bypass that allowed a malicious frame to trick the extension into saving spoofed credentials. The vendor triaged the issue, classified it as Medium severity, and will credit me in their upcoming Security Advisory.`,
+    status: 'Triaged & validated',
+    tags: ['CVD', 'browser‑extension', 'cross‑origin', 'credential‑theft']
+  },
   terminalLog: [
     { time: "00:01:14", type: "INFO", text: "[+] Target scope confirmed: in-scope wildcards loaded" },
     { time: "00:02:30", type: "EXEC", text: "exec: subfinder -d target.domain -silent | httpx -sc -title" },

@@ -1,7 +1,7 @@
 import React, { useRef, useMemo, useState, useEffect } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
-import FaceModel from './FaceModel'
+// import FaceModel from './FaceModel' // disabled for now
 
 // Delicate floating ambient dust particles
 function AmbientEmbers({ count = 45 }) {
@@ -139,14 +139,14 @@ export default function Scene3D({
         />
 
         {/* 3D Head Model */}
-        <FaceModel
-          scrollProgress={scrollProgress}
-          activeScarId={activeScarId}
-          hoveredScarId={hoveredScarId}
-          onHoverScar={onHoverScar}
-          onSelectScar={onSelectScar}
-          mousePos={mousePos}
-        />
+        {/* <FaceModel
+  scrollProgress={scrollProgress}
+  activeScarId={activeScarId}
+  hoveredScarId={hoveredScarId}
+  onHoverScar={onHoverScar}
+  onSelectScar={onSelectScar}
+  mousePos={mousePos}
+/> */}
 
         {/* Subtle Atmospheric Embers */}
         <AmbientEmbers count={45} />
