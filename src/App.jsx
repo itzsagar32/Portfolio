@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import CinematicIntro from './sections/CinematicIntro'
-import HeroFaceSection from './sections/HeroFaceSection'
+// import HeroFaceSection from './sections/HeroFaceSection'
 import AboutSection from './sections/AboutSection'
 import SkillsSection from './sections/SkillsSection'
 import ProjectsSection from './sections/ProjectsSection'
