@@ -33,10 +33,10 @@ export default function App() {
       {/* Navigation Header */}
       <Navbar onSkipToContent={() => setIntroFinished(true)} />
 
-      {/* Main Content Sections */}
+      /* Main Content Sections */ */
       <main id="main-content">
-        {/* SECTIONS 2, 3, 4: Hero 3D Face, Scroll Progression & Scars */}
-        <HeroFaceSection />
+        {/* SECTIONS 2, 3, 4: Hero 3D Face, Scroll Progression & Scars
+        {/* <HeroFaceSection /> */}
 
         {/* SECTION 5: About Me */}
         <AboutSection />
