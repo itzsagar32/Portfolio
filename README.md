@@ -8,7 +8,7 @@ Instead of a generic template, this website is structured as an interactive digi
 
 ---
 
-## 🌟 Key Highlights & Features
+##  Key Highlights & Features
 
 1. **Section 1: Cinematic Intro**
    - 3–4 second fullscreen sequential typographic animation.
@@ -124,7 +124,7 @@ my website/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -159,7 +159,7 @@ The production-ready assets will be created in the `dist/` directory with automa
 
 ---
 
-## 🎨 Customizing & Replacing Placeholders
+##  Customizing & Replacing Placeholders
 
 1. **Substituting with a Real 3D Model**:
    - The project currently renders an artistic zero-dependency sculpted procedural head that works out-of-the-box.
@@ -176,7 +176,7 @@ The production-ready assets will be created in the `dist/` directory with automa
 
 ---
 
-## ♿ Accessibility & Performance
+##  Accessibility & Performance
 
 - **Reduced Motion**: Automatically skips heavy motion when the user has `prefers-reduced-motion` enabled.
 - **Dynamic DPR Clamping**: Restricts canvas pixel ratio to `Math.min(devicePixelRatio, 1.5)` to ensure a solid 60 FPS on mobile and high-DPI laptops.
