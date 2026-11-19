@@ -33,7 +33,7 @@ export default function App() {
       {/* Navigation Header */}
       <Navbar onSkipToContent={() => setIntroFinished(true)} />
 
-      /* Main Content Sections */ */
+       {/* Main Content Sections */}
       <main id="main-content">
       
 
